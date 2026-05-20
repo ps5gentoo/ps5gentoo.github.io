@@ -31,6 +31,17 @@ const payload_map = [
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
     {
+        displayTitle: "ps5-linux-loader",
+        description: "Linux Loader for the PS5 by TheFlow",
+        fileName: "ps5-linux-loader.elf",
+        author: "TheFlow",
+        projectSource: "https://github.com/ps5-linux/ps5-linux-loader/",
+        binarySource: "https://github.com/ps5-linux/ps5-linux-loader/releases/tag/v2.1",
+        version: "2.1",
+		supportedFirmwares: ["3.","4.","5."],
+        toPort: 9021
+    },
+	{
         displayTitle: "etaHEN",
         description: "AIO HEN",
         fileName: "etaHEN.elf",
@@ -153,17 +164,6 @@ const payload_map = [
         version: "0.1",
         supportedFirmwares: ["1.", "2.", "3.", "4."],
 		toPort: 9021
-    },
-    {
-        displayTitle: "ps5-linux-loader",
-        description: "Linux Loader for the PS5 by TheFlow",
-        fileName: "ps5-linux-loader.elf",
-        author: "TheFlow",
-        projectSource: "https://github.com/ps5-linux/ps5-linux-loader/",
-        binarySource: "https://github.com/ps5-linux/ps5-linux-loader/releases/tag/v1.0",
-        version: "1.0",
-		supportedFirmwares: ["3.","4."],
-        toPort: 9021
     },
     {
         // https://github.com/Storm21CH/PS5_Browser_appCache_remove
